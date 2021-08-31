@@ -19,7 +19,7 @@ const ReadlineParser = require('@serialport/parser-readline')
 const dateFormat = require('dateformat')
 const { once, EventEmitter } = require('events')
 
-let appName = "SenseCAP One Configuration Tool"
+let appName = "BolunAWS BOR Configuration Tool"
 app.name = appName
 
 const logger = require("electron-log")
@@ -106,7 +106,7 @@ async function translateMenu() {
       defaultMenu[5].submenu.push({
         label: t('Report an issue'),
         click: () => {
-          shell.openExternal('https://github.com/Seeed-Solution/SenseCAP-One-Configuration-Tool/issues')
+          shell.openExternal('http://www.bljw-weather.com/message/')
         }
       })
       logger.debug(JSON.stringify(defaultMenu))
@@ -1032,7 +1032,7 @@ ipcMain.on('locale-change', (event, arg) => {
 
 // System Call
 ipcMain.on('goto-new-version', (event) => {
-  shell.openExternal('https://github.com/Seeed-Solution/SenseCAP-One-Configuration-Tool/releases/latest')
+  shell.openExternal('https://github.com/KillingJacky/BolunAWS-BOR-Configuration-Tool/releases/latest')
 })
 
 //Other Windows and Windows Communication

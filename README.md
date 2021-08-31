@@ -1,4 +1,4 @@
-# SenseCAP One Configuration Tool
+# BolunAWS BOR Configuration Tool
 
 
 

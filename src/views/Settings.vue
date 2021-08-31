@@ -803,7 +803,7 @@ export default {
         MBAD: 1,
         MBBD: 96,
         SDIAD: '0',
-        NA: "SenseCAP ONE ############",
+        NA: "BolunAWS BOR ############",
 
         G0: [],
 

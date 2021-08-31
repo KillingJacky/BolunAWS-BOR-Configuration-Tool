@@ -16,7 +16,7 @@ module.exports = {
       filename: 'index.html',
       // when using title option,
       // template title tag needs to be <title><%= htmlWebpackPlugin.options.title %></title>
-      title: 'SenseCAP One Configuration Tool',
+      title: 'BolunAWS BOR Configuration Tool',
       // chunks to include on this page, by default includes
       // extracted common chunks and vendor chunks.
       chunks: ['chunk-vendors', 'chunk-common', 'index']
@@ -25,14 +25,14 @@ module.exports = {
       entry: 'src/main-settings.js',
       template: 'public/index.html',
       filename: 'settings.html',
-      title: 'SenseCAP One Configuration Tool - Settings',
+      title: 'BolunAWS BOR Configuration Tool - Settings',
       chunks: ['chunk-vendors', 'chunk-common', 'settings']
     },
     fwupdate: {
       entry: 'src/main-update.js',
       template: 'public/index.html',
       filename: 'fwupdate.html',
-      title: 'SenseCAP One Configuration Tool - Firmware Update',
+      title: 'BolunAWS BOR Configuration Tool - Firmware Update',
       chunks: ['chunk-vendors', 'chunk-common', 'fwupdate']
     },
   },
@@ -76,9 +76,9 @@ module.exports = {
 
       builderOptions: {
         // options placed here will be merged with default configuration and passed to electron-builder
-        'appId': 'cc.seeed.sensecap.tools.one',
-        'productName': 'SenseCAP One Configuration Tool',
-        'copyright': 'Copyright ©2008-2020 Seeed Technology Co.,Ltd.',
+        'appId': 'cc.bolunaws.tools.bor',
+        'productName': 'BolunAWS BOR Configuration Tool',
+        'copyright': 'Beijing BoLun JingWei Tech Dev Co., Ltd.',
         'nsis': {
           'installerIcon': 'build/icon.ico',
           'installerHeader': 'build/icon.png',
@@ -93,7 +93,7 @@ module.exports = {
           'icon': 'build/icon.ico',
         },
         'dmg': {
-          'title': 'SenseCAP One Configuration Tool',
+          'title': 'BolunAWS BOR Configuration Tool',
           'icon': 'build/icon.png',
           'contents': [
             {
